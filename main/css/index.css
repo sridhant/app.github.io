@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.gameScreen {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.gameScreen .introScreen {
+  width: 100vw;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: url(https://images.unsplash.com/photo-1523755130311-9eadea3a0861?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gameScreen .introScreen h1 {
+  font-size: 700%;
+  margin-top: 10%;
+  font-family: 'Fredoka One', cursive;
+  color: #8400ff;
+  -webkit-text-stroke: 1px #8400ff;
+}
+
+.gameScreen .introScreen button {
+  font-size: 200%;
+  margin-top: -120%;
+  font-family: 'Fredoka One', cursive;
+  background-color: #8400ff;
+}
+
+.gameScreen .bgMusic {
+  background-color: #8400ff;
+  width: 20%;
+  height: 10%;
+  border-radius: 300px;
+  margin-top: -25%;
+  margin-left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info {
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.info .infoContainer {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  background: url(https://images.unsplash.com/photo-1604672857367-a0d662dfd7f2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5% 0%;
+}
+
+.info .infoContainer .infoBox {
+  width: 50vw;
+  height: 80vh;
+  border: 5px solid black;
+  z-index: 2;
+  background-color: #171717;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5%;
+  border-radius: 30px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.info .infoContainer .infoBox h1 {
+  font-size: 500%;
+  color: blueviolet;
+  font-family: 'Fredoka One', cursive;
+}
+
+.info .infoContainer .infoBox .displayInput {
+  border-radius: 100px;
+  background-color: blueviolet;
+  color: cornsilk;
+}
+
+.info .infoContainer .infoBox input {
+  border-radius: 100px;
+  font-family: 'Fredoka One', cursive;
+  color: blueviolet;
+}
+
+.info .infoContainer .infoBox button {
+  width: 100%;
+  font-family: 'Fredoka One', cursive;
+  font-size: 120%;
+  border-radius: 100px;
+}
+
+.info .infoContainer .audioBtn {
+  width: 4%;
+  height: 50%;
+}
+
+.gameSection {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.gameSection .gameArea {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(https://images.unsplash.com/photo-1604854391694-17a6c60bc67f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1504&q=80);
+  background-size: cover;
+}
+
+.gameSection .gameArea .gameBox {
+  width: 50vw;
+  height: 80vh;
+  border: 5px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 30px;
+  padding: 5%;
+  background-color: #171717;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.gameSection .gameArea .gameBox h1 {
+  font-size: 400%;
+  color: #ee00ff;
+  font-family: 'Fredoka One', cursive;
+}
+
+.gameSection .gameArea .gameBox h3 {
+  color: #2512fc;
+}
+
+.gameSection .gameArea .gameBox .btnRowOne {
+  height: 15%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10%;
+}
+
+.gameSection .gameArea .gameBox .btnRowOne button {
+  width: 90%;
+  border-radius: 100px;
+  background-color: transparent;
+  border: 5px solid #ee00ff;
+  color: #ee00ff;
+}
+
+.gameSection .gameArea .gameBox .btnRowTwo {
+  height: 15%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5%;
+}
+
+.gameSection .gameArea .gameBox .btnRowTwo button {
+  width: 90%;
+  border-radius: 100px;
+  background-color: transparent;
+  border: 5px solid #ee00ff;
+  color: #ee00ff;
+}
+
+.audioBtn {
+  width: 6%;
+  height: 60%;
+  background-color: #8a0dff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: right;
+  border-radius: 100px;
+  margin-right: 2%;
+  margin-top: 5%;
+  z-index: 5;
+  cursor: pointer;
+}
+
+#answerInput {
+  color: #8a0dff;
+  font-family: 'Fredoka One', cursive;
+}
+
+@media only screen and (min-width: 831px) and (max-width: 1200px) {
+  .gameScreen .introScreen h1 {
+    color: #8400ff;
+  }
+  .gameScreen .introScreen button {
+    margin-top: -250%;
+    height: 30%;
+    height: 30%;
+  }
+  .gameScreen .introScreen button h2 {
+    font-size: 200%;
+  }
+  .gameScreen .audioBtn {
+    width: 20%;
+    height: 50%;
+    margin-left: 2%;
+    margin-top: 20%;
+  }
+  .info .infoContainer .infoBox {
+    width: 80vw;
+    height: 50vh;
+  }
+  .info .infoContainer .infoBox button {
+    width: 100%;
+  }
+  .info .infoContainer .audioBtn {
+    width: 20%;
+    float: bottom;
+  }
+  .gameSection .gameArea .gameBox {
+    width: 80vw;
+    height: 50vh;
+  }
+  .gameSection .gameArea .gameBox .btnRowOne button {
+    margin-top: 3%;
+  }
+  .gameSection .gameArea .gameBox .btnRowTwo button {
+    margin-top: 3%;
+  }
+}
+
+@media only screen and (min-width: 230px) and (max-width: 830px) {
+  .gameScreen .introScreen {
+    background: url(https://images.unsplash.com/photo-1481391319762-47dff72954d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1402&q=80);
+  }
+  .gameScreen .introScreen h1 {
+    color: #8400ff;
+  }
+  .gameScreen .introScreen button {
+    margin-top: -250%;
+    height: 30%;
+    height: 30%;
+  }
+  .gameScreen .introScreen button h2 {
+    font-size: 200%;
+  }
+  .gameScreen .audioBtn {
+    width: 20%;
+    height: 50%;
+    margin-left: 2%;
+    margin-top: 20%;
+  }
+  .info .infoContainer .infoBox {
+    width: 80vw;
+    height: 50vh;
+  }
+  .info .infoContainer .infoBox button {
+    width: 100%;
+  }
+  .info .infoContainer .audioBtn {
+    width: 20%;
+    float: bottom;
+  }
+  .gameSection .gameArea .gameBox {
+    width: 80vw;
+    height: 60vh;
+  }
+  .gameSection .gameArea .gameBox .btnRowOne button {
+    margin-top: 3%;
+  }
+}
+/*# sourceMappingURL=index.css.map */
