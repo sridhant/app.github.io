@@ -80,18 +80,24 @@ const questions = {
   let btnTwo = document.querySelector('#optTwo')
   let btnTwoSpan = document.querySelector('#optTwoSpan')
   let question = document.querySelector('#question')
+  let answerInput = document.querySelector('#answerInput')
   
   //game global
   let gameStart = false
   let questionCounter = 0
-  
+  const redirect = false
   
   //now game start
   gameStart = true
+
   if (gameStart == true){
     let QUE = questions
     question.innerHTML = QUE.one
+          if(answerInput.length < 3 ){
+               alert(` it will be better if u write at least 4 letters insted of ${answerInput.length}`)
+          }
   }
+
 
 
 

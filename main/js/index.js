@@ -21,7 +21,7 @@ register = () => {
   } else {
     doRegister = true;
     proceedRegister();
-    alert(` registered name =  ${localStorage.getItem("Name")}`)
+    alert(` register name =  ${localStorage.getItem("Name")}`)
   }
   
 };
